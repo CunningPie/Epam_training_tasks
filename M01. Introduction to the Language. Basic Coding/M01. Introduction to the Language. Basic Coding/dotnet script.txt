@@ -1,0 +1,11 @@
+dotnet new sln -n M01
+dotnet new classlib -n ArrayHelper -f net5.0
+dotnet sln M01.sln add ArrayHelper
+dotnet new classlib -n RectangleHelper -f net5.0
+dotnet sln M01.sln add RectangleHelper
+dotnet new console -n LibrariesTester -f net5.0
+dotnet add LibrariesTester\ reference ArrayHelper\
+dotnet add LibrariesTester\ reference RectangleHelper\
+dotnet sln M01.sln add LibrariesTester
+dotnet publish LibrariesTester  -c Release -o publish\winx64 -p:PublishSingleFile=true --runtime win-x64 --sc true
+dotnet publish LibrariesTester  -c Release -o publish\winx86 -p:PublishSingleFile=true --runtime win-x86 --sc true
