@@ -48,7 +48,7 @@ namespace StringConverter
                 {
                     if (Char.IsDigit(num[i]))
                     {
-                        result = checked(result * 10 + (num[i] - '0'));
+                        result = checked(result * 10 + sign * (num[i] - '0'));
                         _logger.Log(LogLevel.Information, string.Format("Digit \"{0}\" from string \"{1}\" parsed", num[i], num));
                     }
                     else
@@ -64,7 +64,7 @@ namespace StringConverter
                 throw;
             }
 
-            return result * sign;
+            return result;
         }
     }
 }

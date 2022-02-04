@@ -8,7 +8,10 @@ using Ardalis.GuardClauses;
 
 namespace StringWorker
 {
-    internal class PhoneNumbersFinder
+    /// <summary>
+    /// Класс поиска номеров в текстовом файле.
+    /// </summary>
+    public class PhoneNumbersFinder
     {
         /// <summary>
         /// Ищет номера телефонов в текстовом файле по формату +X (XXX) XXX-XX-XX, X XXX XXX-XX-XX или +XXX (XX) XXX-XXXX
