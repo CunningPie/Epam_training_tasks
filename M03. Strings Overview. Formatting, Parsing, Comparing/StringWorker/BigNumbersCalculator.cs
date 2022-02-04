@@ -4,7 +4,10 @@ using Ardalis.GuardClauses;
 
 namespace StringWorker
 {
-    internal static class BigNumbersCalculator
+    /// <summary>
+    /// Класс вычисления операций над большими числами, представленными в виде строк.
+    /// </summary>
+    public static class BigNumbersCalculator
     {
         static bool IsDigitsOnly(string str)
         {

@@ -5,7 +5,10 @@ using Ardalis.GuardClauses;
 
 namespace StringWorker
 {
-    static internal class WordLengthCounter
+    /// <summary>
+    /// Класс рассчета средней длины слова в строке.
+    /// </summary>
+    static public class WordLengthCounter
     {
         /// <summary>
         /// Считает среднюю длину слова во входящей строке, не учитываю знаки пунктуации.

@@ -3,7 +3,10 @@ using Ardalis.GuardClauses;
 
 namespace StringWorker
 {
-    internal static class WordsOrderReverser
+    /// <summary>
+    /// Класс обращения порядка слов в строке.
+    /// </summary>
+    public static class WordsOrderReverser
     {
         /// <summary>
         /// Возвращает строку с обратным порядком слов из строки str.

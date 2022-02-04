@@ -4,7 +4,10 @@ using Ardalis.GuardClauses;
 
 namespace StringWorker
 {
-    internal static class DoubleSymbolsWorker
+    /// <summary>
+    /// Класс дублирования символов в строке по заданному шаблону.
+    /// </summary>
+    public static class DoubleSymbolsWorker
     {
         /// <summary>
         /// Дублирует все символы в строке srcStr, которые были найдены в строке symStr.
