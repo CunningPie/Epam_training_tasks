@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomCollectionMethodsLibrary", "CustomCollectionMethodsLibrary\CustomCollectionMethodsLibrary.csproj", "{2AB4B278-CA23-499E-8F57-BE7665CC1CCE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomCollectionMethodsDemo", "CustomCollectionMethodsDemo\CustomCollectionMethodsDemo.csproj", "{55E1C31A-9DCE-44B7-ACFF-6A6046E570D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomCollectionMethdosLibrary.Tests", "CustomCollectionMethdosLibrary.Tests\CustomCollectionMethdosLibrary.Tests.csproj", "{A86A1420-D336-4AEA-BB97-A89844ADBFE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversePolishNotation", "ReversePolishNotation\ReversePolishNotation.csproj", "{407DD8D0-3C5C-480A-95E1-39ECD65F0BD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversePolishNotation.Tests", "ReversePolishNotation.Tests\ReversePolishNotation.Tests.csproj", "{90E3A84B-6C7E-4891-9991-2D9D44D38A9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AB4B278-CA23-499E-8F57-BE7665CC1CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB4B278-CA23-499E-8F57-BE7665CC1CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB4B278-CA23-499E-8F57-BE7665CC1CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB4B278-CA23-499E-8F57-BE7665CC1CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55E1C31A-9DCE-44B7-ACFF-6A6046E570D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E1C31A-9DCE-44B7-ACFF-6A6046E570D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E1C31A-9DCE-44B7-ACFF-6A6046E570D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E1C31A-9DCE-44B7-ACFF-6A6046E570D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A86A1420-D336-4AEA-BB97-A89844ADBFE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A86A1420-D336-4AEA-BB97-A89844ADBFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A86A1420-D336-4AEA-BB97-A89844ADBFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A86A1420-D336-4AEA-BB97-A89844ADBFE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{407DD8D0-3C5C-480A-95E1-39ECD65F0BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407DD8D0-3C5C-480A-95E1-39ECD65F0BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407DD8D0-3C5C-480A-95E1-39ECD65F0BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407DD8D0-3C5C-480A-95E1-39ECD65F0BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90E3A84B-6C7E-4891-9991-2D9D44D38A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90E3A84B-6C7E-4891-9991-2D9D44D38A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90E3A84B-6C7E-4891-9991-2D9D44D38A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90E3A84B-6C7E-4891-9991-2D9D44D38A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF19B31B-8531-43CE-B4B8-969D38B5DA68}
+	EndGlobalSection
+EndGlobal
