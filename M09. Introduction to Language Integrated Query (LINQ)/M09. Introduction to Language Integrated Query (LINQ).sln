@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentTestsDataQueryParser", "StudentTestsDataQueryParser\StudentTestsDataQueryParser.csproj", "{DF7D361A-9A5B-4278-98FA-9CDCDB98C3CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentTestsDataQueryParser.Tests", "StudentTestsDataQueryParser.Tests\StudentTestsDataQueryParser.Tests.csproj", "{D70DD056-C307-46B5-83C9-1A953BFE343F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF7D361A-9A5B-4278-98FA-9CDCDB98C3CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF7D361A-9A5B-4278-98FA-9CDCDB98C3CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF7D361A-9A5B-4278-98FA-9CDCDB98C3CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF7D361A-9A5B-4278-98FA-9CDCDB98C3CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D70DD056-C307-46B5-83C9-1A953BFE343F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D70DD056-C307-46B5-83C9-1A953BFE343F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D70DD056-C307-46B5-83C9-1A953BFE343F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D70DD056-C307-46B5-83C9-1A953BFE343F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8C2B3C3-3C9F-49D9-92E8-B39C2F55F014}
+	EndGlobalSection
+EndGlobal
