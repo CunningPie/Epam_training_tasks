@@ -1,0 +1,54 @@
+﻿using System.Runtime.Serialization;
+using AutoMapper;
+using CleanArchitecture.Application.Attendance.Queries.GetAttendance;
+using CleanArchitecture.Application.Common.Mappings;
+using CleanArchitecture.Application.Homeworks.Queries;
+using CleanArchitecture.Application.Lecturers.Queries;
+using CleanArchitecture.Application.Lectures.Queries;
+using CleanArchitecture.Application.Students.Queries;
+using CleanArchitecture.Domain.Entities;
+using NUnit.Framework;
+
+namespace CleanArchitecture.Application.UnitTests.Common.Mappings;
+
+public class MappingTests
+{
+    private readonly IConfigurationProvider _configuration;
+    private readonly IMapper _mapper;
+
+    public MappingTests()
+    {
+        _configuration = new MapperConfiguration(config => 
+            config.AddProfile<MappingProfile>());
+
+        _mapper = _configuration.CreateMapper();
+    }
+
+    [Test]
+    public void ShouldHaveValidConfiguration()
+    {
+        _configuration.AssertConfigurationIsValid();
+    }
+
+    [Test]
+    [TestCase(typeof(Student), typeof(StudentDto))]
+    [TestCase(typeof(Lecture), typeof(LectureDto))]
+    [TestCase(typeof(Lecturer), typeof(LecturerDto))]
+    [TestCase(typeof(Homework), typeof(HomeworkDto))]
+    [TestCase(typeof(LectureAttendance), typeof(AttendanceDto))]
+    public void ShouldSupportMappingFromSourceToDestination(Type source, Type destination)
+    {
+        var instance = GetInstanceOf(source);
+
+        _mapper.Map(instance, source, destination);
+    }
+
+    private object GetInstanceOf(Type type)
+    {
+        if (type.GetConstructor(Type.EmptyTypes) != null)
+            return Activator.CreateInstance(type)!;
+
+        // Type without parameterless constructor
+        return FormatterServices.GetUninitializedObject(type);
+    }
+}
